@@ -56,7 +56,6 @@ function queryAgeName(age, name) {
         const searchToy = TOYS.filter((toy) => {
             return toy.name.includes(name)
         })
-        console.log("hoho")
         return searchToy;
     } else { return TOYS }
 }
